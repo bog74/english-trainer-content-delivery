@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "contentType": "airport_lesson_preview",
+  "sourcePackId": "system.travel.airport.production-pack.manifest",
+  "sourcePackVersion": "1.0.0",
+  "sourcePackRevisionId": "system.travel.airport.production-pack.revision.1.0.0",
+  "publishStatus": "in_review",
+  "availability": "preview",
+  "lesson": {
+    "id": "system.travel.airport.lesson.delays-connections-help",
+    "collectionId": "system.travel.airport",
+    "ownerType": "system",
+    "title": {
+      "defaultLocale": "en-GB",
+      "values": {
+        "en-GB": "Delays, connections, and help",
+        "uk": "Затримки, пересадки та допомога",
+        "pl": "Opóźnienia, przesiadki i pomoc",
+        "es": "Retrasos, conexiones y ayuda",
+        "de": "Verspätungen, Anschlüsse und Hilfe",
+        "fr": "Retards, correspondances et aide",
+        "ru": "Задержки, пересадки и помощь"
+      },
+      "translationRevision": 1,
+      "reviewedLocales": []
+    },
+    "objectives": [{
+      "defaultLocale": "en-GB",
+      "values": {
+        "en-GB": "Recognise a disruption, explain the flight status, and ask for help with a connection.",
+        "uk": "Розпізнавати проблеми з рейсом, пояснювати його статус і просити допомоги з пересадкою.",
+        "pl": "Rozpoznawać zakłócenia, wyjaśniać status lotu i prosić o pomoc z przesiadką.",
+        "es": "Reconocer una incidencia, explicar el estado del vuelo y pedir ayuda con una conexión.",
+        "de": "Eine Störung erkennen, den Flugstatus erklären und um Hilfe beim Anschluss bitten.",
+        "fr": "Reconnaître une perturbation, expliquer le statut du vol et demander de l’aide pour une correspondance.",
+        "ru": "Распознавать проблемы с рейсом, объяснять его статус и просить помощи с пересадкой."
+      },
+      "translationRevision": 1,
+      "reviewedLocales": []
+    }],
+    "levelRange": { "min": "A1", "max": "A2" },
+    "itemRefs": [
+      { "id": "item.delays-connections-help.1", "kind": "word", "wordId": "word.airport.delayed", "meaningId": "word.airport.delayed-meaning-1", "role": "core", "position": 0 },
+      { "id": "item.delays-connections-help.2", "kind": "word", "wordId": "word.airport.cancelled", "meaningId": "word.airport.cancelled-meaning-1", "role": "core", "position": 1 },
+      { "id": "item.delays-connections-help.3", "kind": "word", "wordId": "word.airport.connection", "meaningId": "word.airport.connection-meaning-1", "role": "core", "position": 2 },
+      { "id": "item.delays-connections-help.4", "kind": "word", "wordId": "word.airport.help", "meaningId": "word.airport.help-meaning-1", "role": "core", "position": 3 },
+      { "id": "item.delays-connections-help.5", "kind": "lexical_expression", "wordId": "word.airport.connecting-flight", "meaningId": "word.airport.connecting-flight-meaning-1", "role": "core", "position": 4 },
+      { "id": "item.delays-connections-help.6", "kind": "lexical_expression", "wordId": "word.airport.information-desk", "meaningId": "word.airport.information-desk-meaning-1", "role": "core", "position": 5 },
+      { "id": "item.delays-connections-help.7", "kind": "lexical_expression", "wordId": "expression.airport.what-should-i-do", "meaningId": "expression.airport.what-should-i-do-meaning-1", "role": "core", "position": 6 },
+      { "id": "item.delays-connections-help.8", "kind": "sentence_pattern", "patternId": "pattern.airport.flight-has-been", "role": "core", "position": 7 }
+    ],
+    "stagePolicy": {
+      "requiredStages": [1, 2, 3, 4, 5, 6, 7],
+      "allowedModes": ["choose-translation", "active-recall", "sentence-builder", "repeat", "context-dialogue"],
+      "interleaveAcrossItems": true,
+      "adaptiveLength": true,
+      "minimumCoreItems": 5
+    },
+    "quest": {
+      "title": { "defaultLocale": "en-GB", "values": { "en-GB": "Solve a flight problem", "uk": "Вирішіть проблему з рейсом" } },
+      "narrative": { "defaultLocale": "en-GB", "values": { "en-GB": "Explain the delay and find help for your connection.", "uk": "Поясніть затримку та знайдіть допомогу щодо пересадки." } },
+      "iconAssetId": "asset.airport.help",
+      "themeTokens": { "accent": "travel-airport" }
+    },
+    "publishStatus": "in_review",
+    "availability": "preview",
+    "version": { "schemaVersion": 1, "version": "1.0.0", "revisionId": "rev.system.travel.airport.lesson.delays-connections-help.1.0.0" }
+  },
+  "lexicalRecords": [
+    { "id": "word.airport.delayed", "meaningId": "word.airport.delayed-meaning-1", "kind": "word", "cefr": "A2", "english": "delayed", "partOfSpeech": "adjective", "ukIpa": "/dɪˈleɪd/", "translations": { "en-GB": "delayed", "uk": "затриманий" }, "example": { "text": "My flight has been delayed.", "translations": { "uk": "Мій рейс затримано." } } },
+    { "id": "word.airport.cancelled", "meaningId": "word.airport.cancelled-meaning-1", "kind": "word", "cefr": "A2", "english": "cancelled", "partOfSpeech": "adjective", "ukIpa": "/ˈkæn.səld/", "translations": { "en-GB": "cancelled", "uk": "скасований" }, "example": { "text": "The flight has been cancelled.", "translations": { "uk": "Рейс скасовано." } } },
+    { "id": "word.airport.connection", "meaningId": "word.airport.connection-meaning-1", "kind": "word", "cefr": "A2", "english": "connection", "partOfSpeech": "noun", "ukIpa": "/kəˈnek.ʃən/", "translations": { "en-GB": "connection", "uk": "пересадка" }, "example": { "text": "I may miss my connection.", "translations": { "uk": "Я можу пропустити пересадку." } } },
+    { "id": "word.airport.help", "meaningId": "word.airport.help-meaning-1", "kind": "word", "cefr": "A1", "english": "help", "partOfSpeech": "noun", "ukIpa": "/help/", "translations": { "en-GB": "help", "uk": "допомога" }, "example": { "text": "I need some help.", "translations": { "uk": "Мені потрібна допомога." } } },
+    { "id": "word.airport.connecting-flight", "meaningId": "word.airport.connecting-flight-meaning-1", "kind": "lexical_expression", "cefr": "A2", "english": "connecting flight", "ukIpa": "/kəˈnek.tɪŋ flaɪt/", "translations": { "en-GB": "connecting flight", "uk": "стикувальний рейс" } },
+    { "id": "word.airport.information-desk", "meaningId": "word.airport.information-desk-meaning-1", "kind": "lexical_expression", "cefr": "A2", "english": "information desk", "ukIpa": "/ˌɪn.fəˈmeɪ.ʃən desk/", "translations": { "en-GB": "information desk", "uk": "довідкова стійка" } },
+    { "id": "expression.airport.what-should-i-do", "meaningId": "expression.airport.what-should-i-do-meaning-1", "kind": "lexical_expression", "cefr": "A2", "english": "What should I do?", "ukIpa": "/wɒt ʃʊd aɪ duː/", "translations": { "en-GB": "What should I do?", "uk": "Що мені робити?" } }
+  ],
+  "sentencePatterns": [{
+    "id": "pattern.airport.flight-has-been",
+    "template": "My flight has been [STATUS].",
+    "slots": [{ "name": "STATUS", "allowedItemIds": ["word.airport.delayed", "word.airport.cancelled"] }],
+    "examples": [{ "text": "My flight has been delayed.", "locale": "en-GB" }, { "text": "My flight has been cancelled.", "locale": "en-GB" }]
+  }],
+  "media": {
+    "audio": { "artifactId": "airport-preview-help-audio-uk", "accent": "UK", "status": "preview_synthetic", "script": "My flight has been delayed. I may miss my connecting flight. Could you help me, please?" },
+    "image": { "artifactId": "airport-preview-help-image", "status": "preview_generated", "alt": { "en-GB": "A traveller asks for help with a delayed connecting flight.", "uk": "Мандрівник просить допомоги через затримку стикувального рейсу." } }
+  },
+  "learnerStateAuthority": "none"
+}
