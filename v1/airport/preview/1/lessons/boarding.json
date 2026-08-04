@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "contentType": "airport_lesson_preview",
+  "sourcePackId": "system.travel.airport.production-pack.manifest",
+  "sourcePackVersion": "1.0.0",
+  "sourcePackRevisionId": "system.travel.airport.production-pack.revision.1.0.0",
+  "publishStatus": "in_review",
+  "availability": "preview",
+  "lesson": {
+    "id": "system.travel.airport.lesson.boarding",
+    "collectionId": "system.travel.airport",
+    "ownerType": "system",
+    "title": {
+      "defaultLocale": "en-GB",
+      "values": {
+        "en-GB": "Boarding",
+        "uk": "Посадка",
+        "pl": "Wejście na pokład",
+        "es": "Embarque",
+        "de": "Einsteigen",
+        "fr": "Embarquement",
+        "ru": "Посадка"
+      },
+      "translationRevision": 1,
+      "reviewedLocales": []
+    },
+    "objectives": [
+      {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Understand a final call, confirm the correct queue, and complete a document check.",
+          "uk": "Розуміти останнє оголошення, уточнювати правильну чергу та проходити перевірку документів.",
+          "pl": "Rozumieć ostatnie wezwanie, potwierdzić właściwą kolejkę i przejść kontrolę dokumentów.",
+          "es": "Entender la última llamada, confirmar la cola correcta y completar el control de documentos.",
+          "de": "Den letzten Aufruf verstehen, die richtige Warteschlange bestätigen und Dokumente vorzeigen.",
+          "fr": "Comprendre le dernier appel, confirmer la bonne file et présenter ses documents.",
+          "ru": "Понимать последнее объявление, уточнять правильную очередь и проходить проверку документов."
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      }
+    ],
+    "levelRange": {
+      "min": "A1",
+      "max": "A2"
+    },
+    "itemRefs": [
+      {
+        "id": "item.boarding.1",
+        "kind": "word",
+        "wordId": "starter-word-56",
+        "meaningId": "starter-word-56-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-56.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 0
+      },
+      {
+        "id": "item.boarding.2",
+        "kind": "word",
+        "wordId": "word.airport.queue",
+        "meaningId": "word.airport.queue-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.queue.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 1
+      },
+      {
+        "id": "item.boarding.3",
+        "kind": "word",
+        "wordId": "word.airport.board",
+        "meaningId": "word.airport.board-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.board.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 2
+      },
+      {
+        "id": "item.boarding.4",
+        "kind": "word",
+        "wordId": "starter-word-51",
+        "meaningId": "starter-word-51-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-51.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 3
+      },
+      {
+        "id": "item.boarding.5",
+        "kind": "lexical_expression",
+        "wordId": "word.airport.final-call",
+        "meaningId": "word.airport.final-call-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.final-call.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 4
+      },
+      {
+        "id": "item.boarding.6",
+        "kind": "lexical_expression",
+        "wordId": "expression.airport.queue-for-flight",
+        "meaningId": "expression.airport.queue-for-flight-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "contextExampleIds": [
+          "example.expression.airport.queue-for-flight.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 5
+      },
+      {
+        "id": "item.boarding.7",
+        "kind": "sentence_pattern",
+        "patternId": "pattern.airport.may-i-see",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "boarding"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 6
+      }
+    ],
+    "stagePolicy": {
+      "requiredStages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "allowedModes": [
+        "choose-translation",
+        "active-recall",
+        "sentence-builder",
+        "repeat",
+        "context-dialogue"
+      ],
+      "interleaveAcrossItems": true,
+      "adaptiveLength": true,
+      "minimumCoreItems": 5
+    },
+    "quest": {
+      "title": {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Board on time",
+          "uk": "Встигніть на посадку",
+          "pl": "Wejdź na pokład na czas",
+          "es": "Embarque a tiempo",
+          "de": "Rechtzeitig einsteigen",
+          "fr": "Embarquez à temps",
+          "ru": "Успейте на посадку"
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      },
+      "narrative": {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Hear the final call and join the correct queue.",
+          "uk": "Почуйте останнє оголошення та станьте в правильну чергу.",
+          "pl": "Usłysz ostatnie wezwanie i dołącz do właściwej kolejki.",
+          "es": "Escuche la última llamada y póngase en la cola correcta.",
+          "de": "Hören Sie den letzten Aufruf und stellen Sie sich richtig an.",
+          "fr": "Écoutez le dernier appel et rejoignez la bonne file.",
+          "ru": "Услышьте последнее объявление и встаньте в правильную очередь."
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      },
+      "iconAssetId": "asset.airport.boarding",
+      "themeTokens": {
+        "accent": "travel-airport"
+      }
+    },
+    "publishStatus": "in_review",
+    "availability": "preview",
+    "version": {
+      "schemaVersion": 1,
+      "version": "1.0.0",
+      "revisionId": "rev.system.travel.airport.lesson.boarding.1.0.0",
+      "checksum": "sha256:b1cd02dea8b76b4b33c1a1a00cba7cefb202c5c9488539aa5dea4fd6059db7f5"
+    },
+    "localeMetadata": {
+      "supportedLocales": [
+        "en-GB",
+        "uk",
+        "pl",
+        "es",
+        "de",
+        "fr",
+        "ru"
+      ],
+      "fallbackLocale": "en-GB",
+      "sourceLocale": "en-GB",
+      "missingLocales": [],
+      "pronunciationVariants": [
+        {
+          "accent": "UK"
+        }
+      ]
+    }
+  },
+  "lexicalRecords": [
+    {
+      "id": "starter-word-56",
+      "meaningId": "starter-word-56-meaning-1",
+      "kind": "word",
+      "cefr": "A2",
+      "english": "departure",
+      "partOfSpeech": "noun",
+      "definition": "The act or time of leaving a place.",
+      "ukIpa": "/dɪˈpɑː.tʃə/",
+      "translations": {
+        "en-GB": "departure",
+        "uk": "виліт",
+        "pl": "odlot",
+        "es": "salida",
+        "de": "Abflug",
+        "fr": "départ",
+        "ru": "вылет"
+      },
+      "example": {
+        "text": "Check the departure time on the board.",
+        "translations": {
+          "en-GB": "Check the departure time on the board.",
+          "uk": "Перевірте час вильоту на табло.",
+          "pl": "Sprawdź godzinę odlotu na tablicy.",
+          "es": "Compruebe la hora de salida en el panel.",
+          "de": "Prüfen Sie die Abflugzeit auf der Anzeigetafel.",
+          "fr": "Vérifiez l’heure de départ sur le panneau.",
+          "ru": "Проверьте время вылета на табло."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "departure",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.queue",
+      "meaningId": "word.airport.queue-meaning-1",
+      "kind": "word",
+      "cefr": "A2",
+      "english": "queue",
+      "partOfSpeech": "noun",
+      "definition": "A line of people waiting for something.",
+      "ukIpa": "/kjuː/",
+      "translations": {
+        "en-GB": "queue",
+        "uk": "черга",
+        "pl": "kolejka",
+        "es": "cola",
+        "de": "Warteschlange",
+        "fr": "file d’attente",
+        "ru": "очередь"
+      },
+      "example": {
+        "text": "Please join the queue here.",
+        "translations": {
+          "en-GB": "Please join the queue here.",
+          "uk": "Будь ласка, станьте в чергу тут.",
+          "pl": "Proszę dołączyć tutaj do kolejki.",
+          "es": "Póngase en la cola aquí, por favor.",
+          "de": "Bitte stellen Sie sich hier in die Warteschlange.",
+          "fr": "Veuillez faire la queue ici.",
+          "ru": "Пожалуйста, встаньте в очередь здесь."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "queue",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.board",
+      "meaningId": "word.airport.board-meaning-1",
+      "kind": "word",
+      "cefr": "A2",
+      "english": "board",
+      "partOfSpeech": "verb",
+      "definition": "To get onto an aircraft, train, or ship.",
+      "ukIpa": "/bɔːd/",
+      "translations": {
+        "en-GB": "board",
+        "uk": "сідати на борт",
+        "pl": "wchodzić na pokład",
+        "es": "embarcar",
+        "de": "einsteigen",
+        "fr": "embarquer",
+        "ru": "подниматься на борт"
+      },
+      "example": {
+        "text": "Passengers can board now.",
+        "translations": {
+          "en-GB": "Passengers can board now.",
+          "uk": "Пасажири можуть сідати на борт.",
+          "pl": "Pasażerowie mogą teraz wejść na pokład.",
+          "es": "Los pasajeros pueden embarcar ahora.",
+          "de": "Die Fluggäste können jetzt einsteigen.",
+          "fr": "Les passagers peuvent embarquer maintenant.",
+          "ru": "Пассажиры могут подниматься на борт."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "board",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "starter-word-51",
+      "meaningId": "starter-word-51-meaning-1",
+      "kind": "word",
+      "cefr": "A1",
+      "english": "flight",
+      "partOfSpeech": "noun",
+      "definition": "A journey made by air.",
+      "ukIpa": "/flaɪt/",
+      "translations": {
+        "en-GB": "flight",
+        "uk": "рейс",
+        "pl": "lot",
+        "es": "vuelo",
+        "de": "Flug",
+        "fr": "vol",
+        "ru": "рейс"
+      },
+      "example": {
+        "text": "Our flight to London is on time.",
+        "translations": {
+          "en-GB": "Our flight to London is on time.",
+          "uk": "Наш рейс до Лондона відправляється вчасно.",
+          "pl": "Nasz lot do Londynu jest o czasie.",
+          "es": "Nuestro vuelo a Londres sale a tiempo.",
+          "de": "Unser Flug nach London ist pünktlich.",
+          "fr": "Notre vol pour Londres est à l’heure.",
+          "ru": "Наш рейс в Лондон отправляется вовремя."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "flight",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.final-call",
+      "meaningId": "word.airport.final-call-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A2",
+      "english": "final call",
+      "partOfSpeech": "phrase",
+      "definition": "The last announcement asking passengers to board.",
+      "ukIpa": "/ˌfaɪ.nəl ˈkɔːl/",
+      "translations": {
+        "en-GB": "final call",
+        "uk": "останнє оголошення",
+        "pl": "ostatnie wezwanie",
+        "es": "última llamada",
+        "de": "letzter Aufruf",
+        "fr": "dernier appel",
+        "ru": "последнее объявление"
+      },
+      "example": {
+        "text": "This is the final call for flight BA two eight one.",
+        "translations": {
+          "en-GB": "This is the final call for flight BA two eight one.",
+          "uk": "Це останнє оголошення для пасажирів рейсу BA два вісім один.",
+          "pl": "To ostatnie wezwanie na lot BA dwa osiem jeden.",
+          "es": "Esta es la última llamada para el vuelo BA dos ocho uno.",
+          "de": "Dies ist der letzte Aufruf für Flug BA zwei acht eins.",
+          "fr": "Ceci est le dernier appel pour le vol BA deux huit un.",
+          "ru": "Это последнее объявление для пассажиров рейса BA два восемь один."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "final call",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "expression.airport.queue-for-flight",
+      "meaningId": "expression.airport.queue-for-flight-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A2",
+      "english": "Is this the queue for flight BA two eight one?",
+      "partOfSpeech": "phrase",
+      "definition": "A question used to confirm the correct boarding queue.",
+      "ukIpa": "/ɪz ðɪs ðə kjuː fə flaɪt ˌbiːˈeɪ tuː eɪt wʌn/",
+      "translations": {
+        "en-GB": "Is this the queue for flight BA two eight one?",
+        "uk": "Це черга на рейс BA два вісім один?",
+        "pl": "Czy to kolejka na lot BA dwa osiem jeden?",
+        "es": "¿Es esta la cola para el vuelo BA dos ocho uno?",
+        "de": "Ist das die Warteschlange für Flug BA zwei acht eins?",
+        "fr": "Est-ce la file d’attente pour le vol BA deux huit un ?",
+        "ru": "Это очередь на рейс BA два восемь один?"
+      },
+      "example": {
+        "text": "Is this the queue for flight BA two eight one?",
+        "translations": {
+          "en-GB": "Is this the queue for flight BA two eight one?",
+          "uk": "Це черга на рейс BA два вісім один?",
+          "pl": "Czy to kolejka na lot BA dwa osiem jeden?",
+          "es": "¿Es esta la cola para el vuelo BA dos ocho uno?",
+          "de": "Ist das die Warteschlange für Flug BA zwei acht eins?",
+          "fr": "Est-ce la file d’attente pour le vol BA deux huit un ?",
+          "ru": "Это очередь на рейс BA два восемь один?"
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "Is this the queue for flight BA two eight one?",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "pattern.airport.may-i-see",
+      "template": "May I see your [DOCUMENT]?",
+      "slots": [
+        {
+          "name": "DOCUMENT",
+          "allowedItemIds": [
+            "starter-word-43",
+            "starter-word-50",
+            "word.airport.document"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "May I see your passport?",
+          "locale": "en-GB"
+        },
+        {
+          "text": "May I see your boarding pass?",
+          "locale": "en-GB"
+        }
+      ],
+      "version": {
+        "schemaVersion": 1,
+        "version": "1.0.0",
+        "revisionId": "rev.pattern.airport.may-i-see.1.0.0",
+        "checksum": "sha256:fa41d480bcdfa3cd1f9a6dfb89d89f758796c6825280fedf26e524018ce0b77b"
+      }
+    }
+  ],
+  "media": {
+    "image": {
+      "id": "asset.airport.boarding.preview.1",
+      "kind": "illustration",
+      "status": "preview"
+    },
+    "audio": {
+      "id": "audio.airport.boarding.scene.en-GB.preview.1",
+      "locale": "en-GB",
+      "accent": "UK",
+      "voiceType": "synthetic_preview",
+      "script": "This is the final call for flight B A two eight one. Please have your passport and boarding pass ready.",
+      "status": "preview_pending_human_audio_qa"
+    }
+  },
+  "learnerStateAuthority": "none"
+}

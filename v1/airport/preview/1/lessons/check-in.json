@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "contentType": "airport_lesson_preview",
+  "sourcePackId": "system.travel.airport.production-pack.manifest",
+  "sourcePackVersion": "1.0.0",
+  "sourcePackRevisionId": "system.travel.airport.production-pack.revision.1.0.0",
+  "publishStatus": "in_review",
+  "availability": "preview",
+  "lesson": {
+    "id": "system.travel.airport.lesson.check-in",
+    "collectionId": "system.travel.airport",
+    "ownerType": "system",
+    "title": {
+      "defaultLocale": "en-GB",
+      "values": {
+        "en-GB": "Check-in and documents",
+        "uk": "Реєстрація та документи",
+        "pl": "Odprawa i dokumenty",
+        "es": "Facturación y documentos",
+        "de": "Check-in und Dokumente",
+        "fr": "Enregistrement et documents",
+        "ru": "Регистрация и документы"
+      },
+      "translationRevision": 1,
+      "reviewedLocales": []
+    },
+    "objectives": [
+      {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Present travel documents, state a destination, and request a seat politely.",
+          "uk": "Пред’являти проїзні документи, називати місце призначення та ввічливо просити потрібне місце.",
+          "pl": "Okazywać dokumenty podróżne, podawać cel podróży i uprzejmie prosić o miejsce.",
+          "es": "Presentar documentos de viaje, indicar el destino y pedir un asiento con cortesía.",
+          "de": "Reisedokumente vorzeigen, das Reiseziel nennen und höflich um einen Sitzplatz bitten.",
+          "fr": "Présenter ses documents de voyage, indiquer sa destination et demander poliment une place.",
+          "ru": "Предъявлять проездные документы, называть пункт назначения и вежливо просить нужное место."
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      }
+    ],
+    "levelRange": {
+      "min": "A1",
+      "max": "A2"
+    },
+    "itemRefs": [
+      {
+        "id": "item.check-in.1",
+        "kind": "word",
+        "wordId": "starter-word-43",
+        "meaningId": "starter-word-43-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-43.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 0
+      },
+      {
+        "id": "item.check-in.2",
+        "kind": "word",
+        "wordId": "starter-word-44",
+        "meaningId": "starter-word-44-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-44.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 1
+      },
+      {
+        "id": "item.check-in.3",
+        "kind": "word",
+        "wordId": "word.airport.destination",
+        "meaningId": "word.airport.destination-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.destination.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 2
+      },
+      {
+        "id": "item.check-in.4",
+        "kind": "word",
+        "wordId": "word.airport.document",
+        "meaningId": "word.airport.document-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.document.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 3
+      },
+      {
+        "id": "item.check-in.5",
+        "kind": "lexical_expression",
+        "wordId": "starter-word-50",
+        "meaningId": "starter-word-50-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-50.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 4
+      },
+      {
+        "id": "item.check-in.6",
+        "kind": "lexical_expression",
+        "wordId": "starter-word-53",
+        "meaningId": "starter-word-53-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-53.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 5
+      },
+      {
+        "id": "item.check-in.7",
+        "kind": "lexical_expression",
+        "wordId": "expression.airport.request-aisle-seat",
+        "meaningId": "expression.airport.request-aisle-seat-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "contextExampleIds": [
+          "example.expression.airport.request-aisle-seat.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 6
+      },
+      {
+        "id": "item.check-in.8",
+        "kind": "sentence_pattern",
+        "patternId": "pattern.airport.could-i-have",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "check-in"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 7
+      }
+    ],
+    "stagePolicy": {
+      "requiredStages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "allowedModes": [
+        "choose-translation",
+        "active-recall",
+        "sentence-builder",
+        "repeat",
+        "context-dialogue"
+      ],
+      "interleaveAcrossItems": true,
+      "adaptiveLength": true,
+      "minimumCoreItems": 5
+    },
+    "quest": {
+      "title": {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Check-in challenge",
+          "uk": "Завдання на реєстрації",
+          "pl": "Wyzwanie przy odprawie",
+          "es": "Reto de facturación",
+          "de": "Check-in-Aufgabe",
+          "fr": "Défi d’enregistrement",
+          "ru": "Задание на регистрации"
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      },
+      "narrative": {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Check in for your flight and make a polite seat request.",
+          "uk": "Зареєструйтеся на рейс і ввічливо попросіть потрібне місце.",
+          "pl": "Odpraw się na lot i uprzejmie poproś o wybrane miejsce.",
+          "es": "Facture para su vuelo y pida un asiento con cortesía.",
+          "de": "Checken Sie für Ihren Flug ein und bitten Sie höflich um einen Sitzplatz.",
+          "fr": "Enregistrez-vous pour votre vol et demandez poliment une place.",
+          "ru": "Зарегистрируйтесь на рейс и вежливо попросите нужное место."
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      },
+      "iconAssetId": "asset.airport.check-in",
+      "themeTokens": {
+        "accent": "travel-airport"
+      }
+    },
+    "publishStatus": "in_review",
+    "availability": "preview",
+    "version": {
+      "schemaVersion": 1,
+      "version": "1.0.0",
+      "revisionId": "rev.system.travel.airport.lesson.check-in.1.0.0",
+      "checksum": "sha256:92cbbf85306a7d83dfe56d1279aab47ef8afb58dbc5ab2fd71f164f643caa784"
+    },
+    "localeMetadata": {
+      "supportedLocales": [
+        "en-GB",
+        "uk",
+        "pl",
+        "es",
+        "de",
+        "fr",
+        "ru"
+      ],
+      "fallbackLocale": "en-GB",
+      "sourceLocale": "en-GB",
+      "missingLocales": [],
+      "pronunciationVariants": [
+        {
+          "accent": "UK"
+        }
+      ]
+    }
+  },
+  "lexicalRecords": [
+    {
+      "id": "starter-word-43",
+      "meaningId": "starter-word-43-meaning-1",
+      "kind": "word",
+      "cefr": "A1",
+      "english": "passport",
+      "partOfSpeech": "noun",
+      "definition": "An official document used when travelling between countries.",
+      "ukIpa": "/ˈpɑːs.pɔːt/",
+      "translations": {
+        "en-GB": "passport",
+        "uk": "паспорт",
+        "pl": "paszport",
+        "es": "pasaporte",
+        "de": "Reisepass",
+        "fr": "passeport",
+        "ru": "паспорт"
+      },
+      "example": {
+        "text": "Show your passport at the check-in desk.",
+        "translations": {
+          "en-GB": "Show your passport at the check-in desk.",
+          "uk": "Покажіть паспорт на стійці реєстрації.",
+          "pl": "Pokaż paszport przy stanowisku odprawy.",
+          "es": "Muestre su pasaporte en el mostrador de facturación.",
+          "de": "Zeigen Sie Ihren Reisepass am Check-in-Schalter.",
+          "fr": "Présentez votre passeport au comptoir d’enregistrement.",
+          "ru": "Покажите паспорт на стойке регистрации."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "passport",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "starter-word-44",
+      "meaningId": "starter-word-44-meaning-1",
+      "kind": "word",
+      "cefr": "A1",
+      "english": "luggage",
+      "partOfSpeech": "noun",
+      "definition": "The bags and cases that a traveller carries.",
+      "ukIpa": "/ˈlʌɡ.ɪdʒ/",
+      "translations": {
+        "en-GB": "luggage",
+        "uk": "багаж",
+        "pl": "bagaż",
+        "es": "equipaje",
+        "de": "Gepäck",
+        "fr": "bagages",
+        "ru": "багаж"
+      },
+      "example": {
+        "text": "We have two pieces of luggage.",
+        "translations": {
+          "en-GB": "We have two pieces of luggage.",
+          "uk": "У нас два місця багажу.",
+          "pl": "Mamy dwie sztuki bagażu.",
+          "es": "Tenemos dos piezas de equipaje.",
+          "de": "Wir haben zwei Gepäckstücke.",
+          "fr": "Nous avons deux bagages.",
+          "ru": "У нас два места багажа."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "luggage",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.destination",
+      "meaningId": "word.airport.destination-meaning-1",
+      "kind": "word",
+      "cefr": "A2",
+      "english": "destination",
+      "partOfSpeech": "noun",
+      "definition": "The place to which someone is travelling.",
+      "ukIpa": "/ˌdes.tɪˈneɪ.ʃən/",
+      "translations": {
+        "en-GB": "destination",
+        "uk": "місце призначення",
+        "pl": "miejsce docelowe",
+        "es": "destino",
+        "de": "Reiseziel",
+        "fr": "destination",
+        "ru": "пункт назначения"
+      },
+      "example": {
+        "text": "London is my final destination.",
+        "translations": {
+          "en-GB": "London is my final destination.",
+          "uk": "Лондон — моє кінцеве місце призначення.",
+          "pl": "Londyn jest moim miejscem docelowym.",
+          "es": "Londres es mi destino final.",
+          "de": "London ist mein endgültiges Reiseziel.",
+          "fr": "Londres est ma destination finale.",
+          "ru": "Лондон — мой конечный пункт назначения."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "destination",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.document",
+      "meaningId": "word.airport.document-meaning-1",
+      "kind": "word",
+      "cefr": "A1",
+      "english": "document",
+      "partOfSpeech": "noun",
+      "definition": "An official paper or electronic record.",
+      "ukIpa": "/ˈdɒk.jə.mənt/",
+      "translations": {
+        "en-GB": "document",
+        "uk": "документ",
+        "pl": "dokument",
+        "es": "documento",
+        "de": "Dokument",
+        "fr": "document",
+        "ru": "документ"
+      },
+      "example": {
+        "text": "Please keep this document with your passport.",
+        "translations": {
+          "en-GB": "Please keep this document with your passport.",
+          "uk": "Будь ласка, тримайте цей документ разом із паспортом.",
+          "pl": "Proszę trzymać ten dokument razem z paszportem.",
+          "es": "Guarde este documento con su pasaporte.",
+          "de": "Bitte bewahren Sie dieses Dokument bei Ihrem Reisepass auf.",
+          "fr": "Veuillez garder ce document avec votre passeport.",
+          "ru": "Пожалуйста, держите этот документ вместе с паспортом."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "document",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "starter-word-50",
+      "meaningId": "starter-word-50-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A1",
+      "english": "boarding pass",
+      "partOfSpeech": "phrase",
+      "definition": "A document that allows a passenger to board a flight.",
+      "ukIpa": "/ˈbɔː.dɪŋ ˌpɑːs/",
+      "translations": {
+        "en-GB": "boarding pass",
+        "uk": "посадковий талон",
+        "pl": "karta pokładowa",
+        "es": "tarjeta de embarque",
+        "de": "Bordkarte",
+        "fr": "carte d’embarquement",
+        "ru": "посадочный талон"
+      },
+      "example": {
+        "text": "Keep your boarding pass ready.",
+        "translations": {
+          "en-GB": "Keep your boarding pass ready.",
+          "uk": "Тримайте посадковий талон напоготові.",
+          "pl": "Miej kartę pokładową pod ręką.",
+          "es": "Tenga preparada su tarjeta de embarque.",
+          "de": "Halten Sie Ihre Bordkarte bereit.",
+          "fr": "Gardez votre carte d’embarquement à portée de main.",
+          "ru": "Держите посадочный талон наготове."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "boarding pass",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "starter-word-53",
+      "meaningId": "starter-word-53-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A1",
+      "english": "check-in desk",
+      "partOfSpeech": "phrase",
+      "definition": "The airport desk where passengers register for a flight.",
+      "ukIpa": "/ˈtʃek.ɪn ˌdesk/",
+      "translations": {
+        "en-GB": "check-in desk",
+        "uk": "стійка реєстрації",
+        "pl": "stanowisko odprawy",
+        "es": "mostrador de facturación",
+        "de": "Check-in-Schalter",
+        "fr": "comptoir d’enregistrement",
+        "ru": "стойка регистрации"
+      },
+      "example": {
+        "text": "The check-in desk opens at six.",
+        "translations": {
+          "en-GB": "The check-in desk opens at six.",
+          "uk": "Стійка реєстрації відкривається о шостій.",
+          "pl": "Stanowisko odprawy otwiera się o szóstej.",
+          "es": "El mostrador de facturación abre a las seis.",
+          "de": "Der Check-in-Schalter öffnet um sechs Uhr.",
+          "fr": "Le comptoir d’enregistrement ouvre à six heures.",
+          "ru": "Стойка регистрации открывается в шесть."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "check-in desk",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "expression.airport.request-aisle-seat",
+      "meaningId": "expression.airport.request-aisle-seat-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A2",
+      "english": "Could I have an aisle seat, please?",
+      "partOfSpeech": "phrase",
+      "definition": "A polite request for a seat next to the aisle.",
+      "ukIpa": "/kʊd aɪ hæv ən ˈaɪl siːt pliːz/",
+      "translations": {
+        "en-GB": "Could I have an aisle seat, please?",
+        "uk": "Чи можна мені місце біля проходу, будь ласка?",
+        "pl": "Czy mogę prosić o miejsce przy przejściu?",
+        "es": "¿Podría darme un asiento de pasillo, por favor?",
+        "de": "Könnte ich bitte einen Gangplatz haben?",
+        "fr": "Pourrais-je avoir une place côté couloir, s’il vous plaît ?",
+        "ru": "Можно мне место у прохода, пожалуйста?"
+      },
+      "example": {
+        "text": "Could I have an aisle seat, please?",
+        "translations": {
+          "en-GB": "Could I have an aisle seat, please?",
+          "uk": "Чи можна мені місце біля проходу, будь ласка?",
+          "pl": "Czy mogę prosić o miejsce przy przejściu?",
+          "es": "¿Podría darme un asiento de pasillo, por favor?",
+          "de": "Könnte ich bitte einen Gangplatz haben?",
+          "fr": "Pourrais-je avoir une place côté couloir, s’il vous plaît ?",
+          "ru": "Можно мне место у прохода, пожалуйста?"
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "Could I have an aisle seat, please?",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "pattern.airport.could-i-have",
+      "template": "Could I have [OBJECT], please?",
+      "slots": [
+        {
+          "name": "OBJECT"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Could I have an aisle seat, please?",
+          "locale": "en-GB"
+        },
+        {
+          "text": "Could I have my boarding pass, please?",
+          "locale": "en-GB"
+        },
+        {
+          "text": "Could I have some help, please?",
+          "locale": "en-GB"
+        }
+      ],
+      "version": {
+        "schemaVersion": 1,
+        "version": "1.0.0",
+        "revisionId": "rev.pattern.airport.could-i-have.1.0.0",
+        "checksum": "sha256:3a23745127278731842e6cbfeeeb935a445615a86c8bd81ec8f2f948523cc607"
+      }
+    }
+  ],
+  "media": {
+    "image": {
+      "id": "asset.airport.check-in.preview.1",
+      "kind": "illustration",
+      "status": "preview"
+    },
+    "audio": {
+      "id": "audio.airport.check-in.scene.en-GB.preview.1",
+      "locale": "en-GB",
+      "accent": "UK",
+      "voiceType": "synthetic_preview",
+      "script": "Good morning. May I see your passport and boarding pass? Certainly. Could I have an aisle seat, please?",
+      "status": "preview_pending_human_audio_qa"
+    }
+  },
+  "learnerStateAuthority": "none"
+}

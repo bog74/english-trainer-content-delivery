@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 1,
+  "contentType": "airport_lesson_preview",
+  "sourcePackId": "system.travel.airport.production-pack.manifest",
+  "sourcePackVersion": "1.0.0",
+  "sourcePackRevisionId": "system.travel.airport.production-pack.revision.1.0.0",
+  "publishStatus": "in_review",
+  "availability": "preview",
+  "lesson": {
+    "id": "system.travel.airport.lesson.security-and-gate",
+    "collectionId": "system.travel.airport",
+    "ownerType": "system",
+    "title": {
+      "defaultLocale": "en-GB",
+      "values": {
+        "en-GB": "Security and finding the gate",
+        "uk": "Контроль безпеки та пошук виходу",
+        "pl": "Kontrola bezpieczeństwa i odnalezienie bramki",
+        "es": "Seguridad y búsqueda de la puerta",
+        "de": "Sicherheitskontrolle und Flugsteig finden",
+        "fr": "Sécurité et recherche de la porte",
+        "ru": "Контроль безопасности и поиск выхода"
+      },
+      "translationRevision": 1,
+      "reviewedLocales": []
+    },
+    "objectives": [
+      {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Follow a basic security instruction, find gate information, and ask where to go.",
+          "uk": "Виконувати базові інструкції контролю безпеки, знаходити інформацію про вихід і запитувати дорогу.",
+          "pl": "Wykonywać podstawowe polecenia kontroli, znaleźć informację o bramce i zapytać o drogę.",
+          "es": "Seguir una instrucción básica de seguridad, encontrar la puerta y preguntar adónde ir.",
+          "de": "Einfache Sicherheitsanweisungen befolgen, den Flugsteig finden und nach dem Weg fragen.",
+          "fr": "Suivre une consigne de sécurité simple, trouver la porte et demander son chemin.",
+          "ru": "Выполнять базовые инструкции контроля, находить информацию о выходе и спрашивать дорогу."
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      }
+    ],
+    "levelRange": {
+      "min": "A1",
+      "max": "A2"
+    },
+    "itemRefs": [
+      {
+        "id": "item.security-and-gate.1",
+        "kind": "word",
+        "wordId": "word.airport.security",
+        "meaningId": "word.airport.security-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.security.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 0
+      },
+      {
+        "id": "item.security-and-gate.2",
+        "kind": "word",
+        "wordId": "starter-word-52",
+        "meaningId": "starter-word-52-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-52.1"
+        ],
+        "practiceTargets": [
+          "recognition",
+          "recall",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 1
+      },
+      {
+        "id": "item.security-and-gate.3",
+        "kind": "lexical_expression",
+        "wordId": "starter-word-54",
+        "meaningId": "starter-word-54-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "contextExampleIds": [
+          "example.starter-word-54.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 2
+      },
+      {
+        "id": "item.security-and-gate.4",
+        "kind": "lexical_expression",
+        "wordId": "word.airport.hand-luggage",
+        "meaningId": "word.airport.hand-luggage-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.hand-luggage.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 3
+      },
+      {
+        "id": "item.security-and-gate.5",
+        "kind": "lexical_expression",
+        "wordId": "word.airport.departure-board",
+        "meaningId": "word.airport.departure-board-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "contextExampleIds": [
+          "example.word.airport.departure-board.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 4
+      },
+      {
+        "id": "item.security-and-gate.6",
+        "kind": "lexical_expression",
+        "wordId": "expression.airport.where-is-gate-twelve",
+        "meaningId": "expression.airport.where-is-gate-twelve-meaning-1",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "contextExampleIds": [
+          "example.expression.airport.where-is-gate-twelve.1"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 5
+      },
+      {
+        "id": "item.security-and-gate.7",
+        "kind": "sentence_pattern",
+        "patternId": "pattern.airport.do-i-need-to",
+        "role": "core",
+        "functionTags": [
+          "airport",
+          "security-and-gate"
+        ],
+        "practiceTargets": [
+          "sentence",
+          "speaking",
+          "context"
+        ],
+        "srsEligible": true,
+        "position": 6
+      }
+    ],
+    "stagePolicy": {
+      "requiredStages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "allowedModes": [
+        "choose-translation",
+        "active-recall",
+        "sentence-builder",
+        "repeat",
+        "context-dialogue"
+      ],
+      "interleaveAcrossItems": true,
+      "adaptiveLength": true,
+      "minimumCoreItems": 5
+    },
+    "quest": {
+      "title": {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Find your gate",
+          "uk": "Знайдіть свій вихід",
+          "pl": "Znajdź swoją bramkę",
+          "es": "Encuentre su puerta",
+          "de": "Finden Sie Ihren Flugsteig",
+          "fr": "Trouvez votre porte",
+          "ru": "Найдите свой выход"
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      },
+      "narrative": {
+        "defaultLocale": "en-GB",
+        "values": {
+          "en-GB": "Pass security and locate gate twelve.",
+          "uk": "Пройдіть контроль безпеки та знайдіть вихід номер дванадцять.",
+          "pl": "Przejdź kontrolę bezpieczeństwa i znajdź bramkę dwunastą.",
+          "es": "Pase el control de seguridad y encuentre la puerta doce.",
+          "de": "Gehen Sie durch die Sicherheitskontrolle und finden Sie Flugsteig zwölf.",
+          "fr": "Passez le contrôle de sécurité et trouvez la porte douze.",
+          "ru": "Пройдите контроль безопасности и найдите выход номер двенадцать."
+        },
+        "translationRevision": 1,
+        "reviewedLocales": []
+      },
+      "iconAssetId": "asset.airport.security",
+      "themeTokens": {
+        "accent": "travel-airport"
+      }
+    },
+    "publishStatus": "in_review",
+    "availability": "preview",
+    "version": {
+      "schemaVersion": 1,
+      "version": "1.0.0",
+      "revisionId": "rev.system.travel.airport.lesson.security-and-gate.1.0.0",
+      "checksum": "sha256:ffa662c2a84b7c557a07df53dcabfb755c9ea5cecd991ea5572592886ba2183d"
+    },
+    "localeMetadata": {
+      "supportedLocales": [
+        "en-GB",
+        "uk",
+        "pl",
+        "es",
+        "de",
+        "fr",
+        "ru"
+      ],
+      "fallbackLocale": "en-GB",
+      "sourceLocale": "en-GB",
+      "missingLocales": [],
+      "pronunciationVariants": [
+        {
+          "accent": "UK"
+        }
+      ]
+    }
+  },
+  "lexicalRecords": [
+    {
+      "id": "word.airport.security",
+      "meaningId": "word.airport.security-meaning-1",
+      "kind": "word",
+      "cefr": "A2",
+      "english": "security",
+      "partOfSpeech": "noun",
+      "definition": "The part of an airport where passengers and bags are checked.",
+      "ukIpa": "/sɪˈkjʊə.rə.ti/",
+      "translations": {
+        "en-GB": "security",
+        "uk": "контроль безпеки",
+        "pl": "kontrola bezpieczeństwa",
+        "es": "control de seguridad",
+        "de": "Sicherheitskontrolle",
+        "fr": "contrôle de sécurité",
+        "ru": "контроль безопасности"
+      },
+      "example": {
+        "text": "Security is straight ahead.",
+        "translations": {
+          "en-GB": "Security is straight ahead.",
+          "uk": "Контроль безпеки прямо попереду.",
+          "pl": "Kontrola bezpieczeństwa jest prosto przed nami.",
+          "es": "El control de seguridad está todo recto.",
+          "de": "Die Sicherheitskontrolle ist geradeaus.",
+          "fr": "Le contrôle de sécurité est tout droit.",
+          "ru": "Контроль безопасности прямо впереди."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "security",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "starter-word-52",
+      "meaningId": "starter-word-52-meaning-1",
+      "kind": "word",
+      "cefr": "A1",
+      "english": "gate",
+      "partOfSpeech": "noun",
+      "definition": "The place at an airport where passengers enter an aircraft.",
+      "ukIpa": "/ɡeɪt/",
+      "translations": {
+        "en-GB": "gate",
+        "uk": "вихід на посадку",
+        "pl": "bramka",
+        "es": "puerta de embarque",
+        "de": "Flugsteig",
+        "fr": "porte d’embarquement",
+        "ru": "выход на посадку"
+      },
+      "example": {
+        "text": "Our flight leaves from gate twelve.",
+        "translations": {
+          "en-GB": "Our flight leaves from gate twelve.",
+          "uk": "Вихід на посадку нашого рейсу — номер дванадцять.",
+          "pl": "Nasz lot odlatuje z bramki dwunastej.",
+          "es": "Nuestro vuelo sale de la puerta doce.",
+          "de": "Unser Flug geht von Flugsteig zwölf.",
+          "fr": "Notre vol part de la porte douze.",
+          "ru": "Выход на посадку на наш рейс — номер двенадцать."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "gate",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "starter-word-54",
+      "meaningId": "starter-word-54-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A1",
+      "english": "security check",
+      "partOfSpeech": "phrase",
+      "definition": "An airport inspection of passengers and their belongings.",
+      "ukIpa": "/sɪˈkjʊə.rə.ti ˌtʃek/",
+      "translations": {
+        "en-GB": "security check",
+        "uk": "контроль безпеки",
+        "pl": "kontrola bezpieczeństwa",
+        "es": "control de seguridad",
+        "de": "Sicherheitskontrolle",
+        "fr": "contrôle de sécurité",
+        "ru": "контроль безопасности"
+      },
+      "example": {
+        "text": "Put your bag here for the security check.",
+        "translations": {
+          "en-GB": "Put your bag here for the security check.",
+          "uk": "Покладіть сумку сюди для проходження контролю безпеки.",
+          "pl": "Połóż torbę tutaj do kontroli bezpieczeństwa.",
+          "es": "Ponga su bolsa aquí para el control de seguridad.",
+          "de": "Legen Sie Ihre Tasche hier zur Sicherheitskontrolle ab.",
+          "fr": "Posez votre sac ici pour le contrôle de sécurité.",
+          "ru": "Положите сумку сюда для прохождения контроля безопасности."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "security check",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.hand-luggage",
+      "meaningId": "word.airport.hand-luggage-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A1",
+      "english": "hand luggage",
+      "partOfSpeech": "phrase",
+      "definition": "Small bags that a passenger takes into the aircraft cabin.",
+      "ukIpa": "/ˈhænd ˌlʌɡ.ɪdʒ/",
+      "translations": {
+        "en-GB": "hand luggage",
+        "uk": "ручна поклажа",
+        "pl": "bagaż podręczny",
+        "es": "equipaje de mano",
+        "de": "Handgepäck",
+        "fr": "bagage à main",
+        "ru": "ручная кладь"
+      },
+      "example": {
+        "text": "This bag is my hand luggage.",
+        "translations": {
+          "en-GB": "This bag is my hand luggage.",
+          "uk": "Ця сумка — моя ручна поклажа.",
+          "pl": "Ta torba to mój bagaż podręczny.",
+          "es": "Esta bolsa es mi equipaje de mano.",
+          "de": "Diese Tasche ist mein Handgepäck.",
+          "fr": "Ce sac est mon bagage à main.",
+          "ru": "Эта сумка — моя ручная кладь."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "hand luggage",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "word.airport.departure-board",
+      "meaningId": "word.airport.departure-board-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A2",
+      "english": "departure board",
+      "partOfSpeech": "phrase",
+      "definition": "A display showing flight departure information.",
+      "ukIpa": "/dɪˈpɑː.tʃə ˌbɔːd/",
+      "translations": {
+        "en-GB": "departure board",
+        "uk": "табло відправлень",
+        "pl": "tablica odlotów",
+        "es": "panel de salidas",
+        "de": "Abflugtafel",
+        "fr": "tableau des départs",
+        "ru": "табло вылетов"
+      },
+      "example": {
+        "text": "Look at the departure board for your gate.",
+        "translations": {
+          "en-GB": "Look at the departure board for your gate.",
+          "uk": "Подивіться номер виходу на табло відправлень.",
+          "pl": "Sprawdź swoją bramkę na tablicy odlotów.",
+          "es": "Mire su puerta en el panel de salidas.",
+          "de": "Suchen Sie Ihren Flugsteig auf der Abflugtafel.",
+          "fr": "Consultez votre porte sur le tableau des départs.",
+          "ru": "Посмотрите номер выхода на табло вылетов."
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "departure board",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    },
+    {
+      "id": "expression.airport.where-is-gate-twelve",
+      "meaningId": "expression.airport.where-is-gate-twelve-meaning-1",
+      "kind": "lexical_expression",
+      "cefr": "A1",
+      "english": "Where is gate twelve?",
+      "partOfSpeech": "phrase",
+      "definition": "A question used to locate a numbered boarding gate.",
+      "ukIpa": "/weər ɪz ɡeɪt twelv/",
+      "translations": {
+        "en-GB": "Where is gate twelve?",
+        "uk": "Де вихід номер дванадцять?",
+        "pl": "Gdzie jest bramka dwunasta?",
+        "es": "¿Dónde está la puerta doce?",
+        "de": "Wo ist Flugsteig zwölf?",
+        "fr": "Où se trouve la porte douze ?",
+        "ru": "Где выход номер двенадцать?"
+      },
+      "example": {
+        "text": "Where is gate twelve?",
+        "translations": {
+          "en-GB": "Where is gate twelve?",
+          "uk": "Де вихід номер дванадцять?",
+          "pl": "Gdzie jest bramka dwunasta?",
+          "es": "¿Dónde está la puerta doce?",
+          "de": "Wo ist Flugsteig zwölf?",
+          "fr": "Où se trouve la porte douze ?",
+          "ru": "Где выход номер двенадцать?"
+        }
+      },
+      "provenance": {
+        "sourceType": "original_editorial_draft",
+        "sourceLocale": "en-GB",
+        "createdFor": "English Trainer Airport pack",
+        "createdAt": "2026-07-28"
+      },
+      "licence": {
+        "identifier": "LicenseRef-English-Trainer-Original-Content",
+        "status": "pending_legal_review"
+      },
+      "audioPlan": {
+        "accent": "UK",
+        "script": "Where is gate twelve?",
+        "status": "pending_recording"
+      },
+      "review": {
+        "linguistic": "pending_human_review",
+        "localization": "pending_human_review",
+        "product": "pending_human_review"
+      }
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "pattern.airport.do-i-need-to",
+      "template": "Do I need to [ACTION]?",
+      "slots": [
+        {
+          "name": "ACTION",
+          "allowedItemIds": [
+            "word.airport.board"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "Do I need to board now?",
+          "locale": "en-GB"
+        }
+      ],
+      "version": {
+        "schemaVersion": 1,
+        "version": "1.0.0",
+        "revisionId": "rev.pattern.airport.do-i-need-to.1.0.0",
+        "checksum": "sha256:2294893ae2c0a9f022c68b9081f53e2823f4a9c3dba94cc457826e215aaecbd9"
+      }
+    }
+  ],
+  "media": {
+    "image": {
+      "id": "asset.airport.security.preview.1",
+      "kind": "illustration",
+      "status": "preview"
+    },
+    "audio": {
+      "id": "audio.airport.security.scene.en-GB.preview.1",
+      "locale": "en-GB",
+      "accent": "UK",
+      "voiceType": "synthetic_preview",
+      "script": "Please place your hand luggage here for the security check. Then follow the signs to gate twelve.",
+      "status": "preview_pending_human_audio_qa"
+    }
+  },
+  "learnerStateAuthority": "none"
+}
