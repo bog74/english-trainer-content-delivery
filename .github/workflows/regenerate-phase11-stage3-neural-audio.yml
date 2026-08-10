@@ -1,0 +1,69 @@
+name: Regenerate Phase 11 Stage 3 neural audio
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/regenerate-phase11-stage3-neural-audio.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install edge-tts
+      - name: Generate British neural audio
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='airport/phase11/11.5F.2/audio/en-GB'
+          mkdir -p "$out"
+          python - <<'PY'
+          import asyncio, hashlib, json, os, subprocess
+          import edge_tts
+
+          OUT='airport/phase11/11.5F.2/audio/en-GB'
+          VOICE='en-GB-SoniaNeural'
+          items={
+            'passport-question':'May I see your passport?',
+            'baggage-question':'How many bags are you checking in?',
+            'seat-question':'Would you like an aisle or a window seat?',
+            'gate-time':'Your gate is twelve. Boarding starts at ten twenty.',
+          }
+
+          async def make(slug,text,speed,rate):
+              raw=f'/tmp/{slug}.{speed}.raw.mp3'
+              final=f'{OUT}/{slug}.{speed}.mp3'
+              await edge_tts.Communicate(text, VOICE, rate=rate).save(raw)
+              subprocess.run([
+                  'ffmpeg','-y','-hide_banner','-loglevel','error','-i',raw,
+                  '-af','apad=pad_dur=0.35','-codec:a','libmp3lame','-b:a','64k',final
+              ],check=True)
+              data=open(final,'rb').read()
+              return {
+                  'slug':slug,'speed':speed,'text':text,'voice':VOICE,'rate':rate,
+                  'path':final,'byteSize':len(data),'sha256':hashlib.sha256(data).hexdigest(),
+              }
+
+          async def main():
+              rows=[]
+              for slug,text in items.items():
+                  rows.append(await make(slug,text,'natural','+0%'))
+                  rows.append(await make(slug,text,'slow','-22%'))
+              with open('airport/phase11/11.5F.2/audio-manifest.json','w',encoding='utf-8') as f:
+                  json.dump({'revision':'phase11-stage3-audio.neural-uk.2','items':rows},f,indent=2,ensure_ascii=False)
+          asyncio.run(main())
+          PY
+      - name: Commit generated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add airport/phase11/11.5F.2
+          git commit -m 'Generate Phase 11 Stage 3 British neural QA audio' || exit 0
+          git push
